@@ -1,0 +1,163 @@
+/* Standardize */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+/* Start Set Up */
+
+body {
+  width: 60rem;
+  margin: 0 auto;
+  font-family: Comfortaa, sans-serif;
+  letter-spacing: 0.5px;
+  background-color: #EEF;
+}
+
+h1, h2 {
+  color: #0099FF;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* End Start Up */
+/* Start Header Section */
+
+#header {
+  display: flex;
+  margin-top: 4rem;
+}
+
+#image {
+  flex-basis: 35%;
+}
+
+#me {
+  border-radius: 50%;
+  max-width: 150px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 2rem;
+}
+
+#social-media {
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.social-link {
+  padding-right: 0.5rem;
+}
+
+.icon-img {
+  width: 30px;
+}
+
+/* End Header Section */
+/* Start Content Section - Info and Resume */
+
+#content {
+  display: flex;
+  margin-top: 4rem;
+}
+
+/* Start Info Subsection */
+
+#info-container {
+  flex-basis: 35%;
+}
+
+.info-title {
+  padding-bottom: 0.75rem;
+}
+
+.info-header {
+
+}
+
+#info {
+ padding-bottom: 2rem;
+}
+
+.info-group {
+  padding-bottom: 0.25rem;
+}
+
+.info-text {
+  font-size: 0.85rem;
+}
+
+#skills {
+  padding-bottom: 2rem;
+}
+
+.skill-group {
+  padding-bottom: 0.75rem;
+}
+
+.skill-grade-icon {
+  width: 35%;
+}
+
+#hobbies {
+
+}
+
+#hobby-text {
+  font-size: 0.85rem;
+}
+
+/* End Info Subsection */
+/* Start Resume Subsection */
+
+#resume-container {
+  flex-basis: 65%;
+}
+
+.resume-title {
+  padding-bottom: 0.75rem;
+}
+
+.resume-text {
+  font-size: 0.85rem;
+}
+
+#profile {
+  padding-bottom: 2rem;
+}
+
+#employment {
+
+}
+
+#job-entry {
+  padding-bottom: 1.5rem;
+}
+
+.resume-header {
+  padding-bottom: 0.5rem;
+}
+
+.dates {
+  font-size: 0.85rem;
+  padding-bottom: 0.5rem;
+}
+
+/* End Resume Subsection */
+/* End Content Section - Info and Resume */

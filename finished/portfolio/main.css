@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 16;
+    text-align: center;
+    color: #333;
+    background-color: #EEE;
+}
+
+.main-content {
+    margin-top: 8em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    padding-bottom: 0.15em;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: cornflowerblue;
+    padding-bottom: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.links {
+    margin-bottom: 5em;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0 1.5em;
+    font-weight: bold;
+}
+
+.social-links a {
+    padding: 0 0.5em;
+}

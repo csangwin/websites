@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    height: 300vh;
+}
+
+.background-img {
+    width: 100%;
+    opacity: 0.05;
+    position: fixed;
+    z-index: -2;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex; 
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    
+}
+
+.hero-img {
+    width: 100vw;
+}
